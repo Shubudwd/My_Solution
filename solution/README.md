@@ -57,4 +57,22 @@ Command ----> sudo docker-compose up
 
 **************************************************************************************************************************************************************************************************************************************************
 
+Steps for Part 3
+
+1:- Added "prom/prometheus:v2.22.0" to the docker-compose.yaml file . Run Docker-compose up command to deploy the csvserver and prometheus image from new docker-compose.yaml file.
+
+Command ---->  sudo docker-compose up
+
+Note :- Also added the prometheus.yml file for Prometheus to collect data from our application at <application>:<port> . Kindly refer to prometheus.yml for target configuration.
+
+For looking csvserver merics data on the host machine open http://localhost:9393/metrics. Access the Prometheus on http://localhost:9090 and execute "csvserver_records" in query section you will see straigt line graph.
+
+Thanks.......
+
+**************************************************************************************************************************************************************************************************************************************************
+
+
+
+
+
 
