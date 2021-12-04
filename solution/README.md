@@ -45,9 +45,16 @@ Command ---->   sudo docker run -d -v $PWD/inputFile:/csvserver/inputdata -p 939
 
 12: After running the Docker image with the above command application was accessible on http://localhost:9393 
 
+**************************************************************************************************************************************************************************************************************************************************
 
+Part Steps for Part 2
 
+1:- Run the Docker-compose up command to deploy the csvserver for the see the compose file kindly refer to "docker-compose.yaml" file in the solution directory.
 
+Command ----> sudo docker-compose up
 
+2:- After running the command the csvserver image will run succesfully.
+
+**************************************************************************************************************************************************************************************************************************************************
 
 
